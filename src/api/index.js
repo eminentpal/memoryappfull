@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // axios instants
 
-const API = axios.create({baseURL: "http://localhost:5000/"})
+const API = axios.create({baseURL: "https://mymemoryapi.herokuapp.com/"})
 
 //sent back our token to our backend to show we are logged im
 API.interceptors.request.use((req)=>{
